@@ -5,9 +5,9 @@ import TeamInfoPage from "./components/TeamInfoPage";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/abios-dpc">
             <Routes>
-                <Route path="*" element={<DPCRankPage />} />
+                <Route path="/" element={<DPCRankPage />} />
                 <Route path="/team/:teamId" element={<TeamInfoPage />} />
             </Routes>
         </BrowserRouter>

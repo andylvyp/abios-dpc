@@ -2,6 +2,7 @@
   "name": "abios-dpc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andylvyp.github.io/abios-dpc",
   "dependencies": {
     "@storybook/react": "^6.5.9",
     "@testing-library/jest-dom": "^5.14.1",
