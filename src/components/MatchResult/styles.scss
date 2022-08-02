@@ -1,0 +1,95 @@
+.match-result-title {
+    font-size: 25px;
+    color: white;
+    padding: 20px 0 10px;
+
+    @media screen and (max-width: 800px) {
+        font-size: 20px;
+        padding: 10px 0 20px;
+    }
+}
+
+.match-result-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.08);
+
+    .match-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 40px;
+        padding: 5px 0;
+
+        .match-team-name {
+            color: white;
+            font-size: 18px;
+            line-height: 40px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .match-team-icon {
+            height: 36px;
+            width: 36px;
+            margin: 2px;
+        }
+
+        .match-score-container {
+            width: 100px;
+            text-align: center;
+
+            .match-score {
+                color: white;
+                font-size: 18px;
+                line-height: 40px;
+            }
+
+            .match-winner {
+                color: #e7885f;
+            }
+        }
+
+        .match-time {
+            color: white;
+            font-size: 12px;
+            line-height: 40px;
+            width: 200px;
+            text-align: center;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid rgba(232, 195, 179, 0.3);
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .match-container {
+            .match-team-name {
+                width: 70px !important;
+                font-size: 10px;
+            }
+
+            .match-team-icon {
+                height: 30px;
+                width: 30px;
+                margin: 5px;
+            }
+
+            .match-score-container {
+                width: 50px;
+
+                .match-score {
+                    font-size: 10px;
+                }
+            }
+
+            .match-time {
+                width: 60px;
+                transform: scale(0.833);
+                white-space: normal;
+                line-height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.line-up-title {
+    font-size: 25px;
+    color: white;
+    padding: 30px 0 20px;
+}
+
+.line-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .player-container {
+        width: 180px;
+        height: 200px;
+        text-align: center;
+
+        .player-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .player-nick-name {
+            font-size: 22px;
+            color: white;
+            padding-bottom: 5px;
+        }
+
+        .player-name {
+            font-size: 12px;
+            color: rgb(218, 218, 218);
+            padding-bottom: 12px;
+        }
+
+        .player-country {
+            width: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 550px) {
+    .line-up-title {
+        font-size: 20px;
+    }
+
+    .line-up-container {
+
+        .player-container {
+            width: 120px !important;
+            height: 200px !important;
+
+            .player-image {
+                width: 90px !important;
+                height: 90px !important;
+            }
+
+            .player-nick-name {
+                font-size: 20px !important;
+            }
+
+            .player-name {
+                font-size: 12px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .line-up-title {
+        font-size: 20px;
+    }
+
+    .line-up-container {
+        flex-wrap: wrap;
+
+        .player-container {
+            width: 100px !important;
+            height: 160px !important;
+
+            .player-image {
+                width: 80px !important;
+                height: 80px !important;
+            }
+
+            .player-nick-name {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
