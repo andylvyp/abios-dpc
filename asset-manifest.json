@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/abios-dpc/static/css/main.3dd1b669.css",
-    "main.js": "/abios-dpc/static/js/main.a7b80a06.js",
+    "main.js": "/abios-dpc/static/js/main.85990a1d.js",
     "static/js/111.6e4101e8.chunk.js": "/abios-dpc/static/js/111.6e4101e8.chunk.js",
     "static/media/Background.jpg": "/abios-dpc/static/media/Background.98f87bd1636145a86a5c.jpg",
     "static/media/Montserrat-Regular.ttf": "/abios-dpc/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
     "static/media/BackButton.svg": "/abios-dpc/static/media/BackButton.75fb4c6c9680b24ce3c9568ef550184c.svg",
     "index.html": "/abios-dpc/index.html",
     "main.3dd1b669.css.map": "/abios-dpc/static/css/main.3dd1b669.css.map",
-    "main.a7b80a06.js.map": "/abios-dpc/static/js/main.a7b80a06.js.map",
+    "main.85990a1d.js.map": "/abios-dpc/static/js/main.85990a1d.js.map",
     "111.6e4101e8.chunk.js.map": "/abios-dpc/static/js/111.6e4101e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3dd1b669.css",
-    "static/js/main.a7b80a06.js"
+    "static/js/main.85990a1d.js"
   ]
 }
